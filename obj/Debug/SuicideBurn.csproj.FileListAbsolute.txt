@@ -6,3 +6,4 @@
 /Users/matejzavadil/Projects/SuicideBurn/obj/Debug/SuicideB.0AD9E538.Up2Date
 /Users/matejzavadil/Projects/SuicideBurn/obj/Debug/SuicideBurn.dll
 /Users/matejzavadil/Projects/SuicideBurn/obj/Debug/SuicideBurn.pdb
+/Users/matejzavadil/Projects/SuicideBurn/obj/Debug/SuicideBurn.sourcelink.json

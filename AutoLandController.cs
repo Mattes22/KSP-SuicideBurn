@@ -48,6 +48,7 @@ namespace SuicideBurn
             if (vessel != null)
             {
                 vessel.ctrlState.mainThrottle = 0f;
+                FlightInputHandler.state.mainThrottle = 0f;
                 vessel.ActionGroups.SetGroup(KSPActionGroup.SAS, false);
             }
 
@@ -122,8 +123,9 @@ namespace SuicideBurn
             {
                 PointRetrograde(vessel);
                 vessel.ctrlState.mainThrottle = 1f;
+                FlightInputHandler.state.mainThrottle = 1f;
 
-                if (-vessel.verticalSpeed < 1d && TerrainScanner.GetAltitudeAboveTerrain(vessel) < 5d)
+                if (TerrainScanner.GetAltitudeAboveTerrain(vessel) < 2d)
                 {
                     break;
                 }
@@ -144,10 +146,12 @@ namespace SuicideBurn
             {
                 PointRetrograde(vessel);
                 vessel.ctrlState.mainThrottle = 0.3f;
+                FlightInputHandler.state.mainThrottle = 0.3f;
                 yield return null;
             }
 
             vessel.ctrlState.mainThrottle = 0f;
+            FlightInputHandler.state.mainThrottle = 0f;
         }
 
         private void PointRetrograde(Vessel vessel)
@@ -176,6 +180,7 @@ namespace SuicideBurn
         private void CompleteLanding(Vessel vessel)
         {
             vessel.ctrlState.mainThrottle = 0f;
+            FlightInputHandler.state.mainThrottle = 0f;
             landingRoutine = null;
         }
     }

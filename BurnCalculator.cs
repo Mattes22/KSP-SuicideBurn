@@ -111,7 +111,7 @@ namespace SuicideBurn
 
             return vessel.parts
                 .SelectMany(part => part.Modules.OfType<ModuleEngines>())
-                .Where(engine => engine.EngineIgnited && engine.isEnabled)
+                .Where(engine => engine.isEnabled)
                 .Sum(engine => (double)engine.maxThrust);
         }
     }

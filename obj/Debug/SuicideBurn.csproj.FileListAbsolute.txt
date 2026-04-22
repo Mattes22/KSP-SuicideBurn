@@ -1,0 +1,8 @@
+/Users/matejzavadil/Projects/SuicideBurn/obj/Debug/SuicideBurn.csproj.AssemblyReference.cache
+/Users/matejzavadil/Projects/SuicideBurn/obj/Debug/SuicideBurn.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matejzavadil/Projects/SuicideBurn/obj/Debug/SuicideBurn.csproj.CoreCompileInputs.cache
+/Users/matejzavadil/Library/Application Support/Steam/steamapps/common/Kerbal Space Program/GameData/SuicideBurn/SuicideBurn.dll
+/Users/matejzavadil/Library/Application Support/Steam/steamapps/common/Kerbal Space Program/GameData/SuicideBurn/SuicideBurn.pdb
+/Users/matejzavadil/Projects/SuicideBurn/obj/Debug/SuicideB.0AD9E538.Up2Date
+/Users/matejzavadil/Projects/SuicideBurn/obj/Debug/SuicideBurn.dll
+/Users/matejzavadil/Projects/SuicideBurn/obj/Debug/SuicideBurn.pdb
